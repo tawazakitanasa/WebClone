@@ -268,6 +268,10 @@ svg {
     margin-block: 49.98px 32px;
 }
 
+.ma {
+    margin-bottom: 68px;
+}
+
 .info {
     display: flex;
     justify-content: space-between;
@@ -716,4 +720,40 @@ svg {
     margin-right: auto;
     color: rgba(0, 0, 0, 0.8);
     -webkit-tap-highlight-color: transparent;
+}
+
+.tag {
+    max-width: 680px;
+    margin: 0 24px;
+    min-width: 0;
+    width: 100%;
+}
+
+.ml {
+    flex-wrap: wrap;
+    margin-top: 6px;
+    margin-bottom: 26px;
+}
+
+.mtag {
+    margin-top: 8px;
+}
+
+.ntag {
+    display: block;
+    margin-right: 8px;
+    padding: 0px;
+    border: none;
+    color: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.ttag {
+    padding: 8px 16px;
+    white-space: nowrap;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 100px;
+    transition: background 300ms ease;
 }
